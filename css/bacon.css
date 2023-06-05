@@ -1,0 +1,55 @@
+/*
+SELECTORS
+*/
+
+/*
+TAG SELECTORS
+lihtsalt tag ja loogsulud
+*/
+
+
+h1 {
+    color: red;
+    font-size: 100px;
+}
+p {
+    color: red;
+}
+/* pseudoklassid (hover)
+*/
+img:hover {
+    background-color: gold;
+    
+}
+img{
+    width: 200px;
+}
+
+/*
+Klassid
+punkt ette
+
+klass ja ID overwritevad tag selectori attribuudid
+*/
+
+
+.bacon {
+    background-color: green;
+}
+
+.broccoli {
+    background-color: red;
+
+}
+.circular {
+    border-radius: 100%;
+}
+
+/*
+ID - uniklaalne, saab ainut 1 korra kasutada 1 lehe peale
+trellid ette
+*/
+
+#heading {
+    font-size: 150px;
+}
